@@ -36,7 +36,7 @@ function App() {
             </div>
           </header>
           {/* Hero区 */}
-          <section className="w-full flex flex-col items-center justify-center text-center pt-10 pb-24 relative z-10 min-h-[420px] md:min-h-[520px] mt-[40px]">
+          <section className="w-full flex flex-col items-center justify-center text-center pt-[100px] pb-24 relative z-10 min-h-[420px] md:min-h-[520px]">
             {/* 背景1 */}
             <img
               src="/banner-bg1.svg"
@@ -101,7 +101,7 @@ function App() {
           </section>
           {/* 底部版权 */}
           <footer className="w-full text-center text-[14px] text-[#828282] py-[24px]">
-            © 2025 北京意启汇区块科技有限公司 版权所有
+            © 2025 北京创思汇权科技有限公司 版权所有
           </footer>
         </main>
       </div>
