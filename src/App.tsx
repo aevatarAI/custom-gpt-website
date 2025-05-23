@@ -99,12 +99,17 @@ function App() {
               </p>
             </div>
           </section>
-          {/* 底部版权 */}
-          <footer className="w-full text-center text-[14px] text-[#828282] py-[24px]">
-            © 2025 北京创思汇权科技有限公司 版权所有
-          </footer>
         </main>
       </div>
+      {/* 底部版权 */}
+      <footer className="w-full text-center text-[14px] text-[#828282] py-[24px] border-t border-[#262626]">
+        <div className="mb-[10px]">© 2025 北京创思汇权科技有限公司 版权所有</div>
+        <div>
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+            京ICP备2025126832号-1
+          </a>
+        </div>
+      </footer>
     </body>
   )
 }
